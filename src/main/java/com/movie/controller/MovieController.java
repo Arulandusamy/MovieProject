@@ -9,7 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/movie")
+@RequestMapping("v1/movie")
 @CrossOrigin("*")
 public class MovieController {
 
